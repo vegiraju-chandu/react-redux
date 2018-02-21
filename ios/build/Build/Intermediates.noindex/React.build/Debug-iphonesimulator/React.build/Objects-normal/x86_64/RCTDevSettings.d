@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h
