@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/raju/iOS/Practise/ReactNative_Practise/ReactWithRedux/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/raju/iOS/React-Redux/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/raju/iOS/React-Redux/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h

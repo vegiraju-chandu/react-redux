@@ -5,7 +5,8 @@ import {
   Text,
   View,
   TouchableHighlight,
-  Alert
+  Alert,
+  TextInput
 } from 'react-native';
 
 
@@ -14,37 +15,57 @@ import { login } from '../actions/userActions';
 
 export class Login extends Component < state,props > {
 
-
     constructor(props){
         super(props);
         this.state = {
             validLogin : false,
+            userInputText: '',
         }
     }
 
     onLoginButtonClicked =()=> {
 
-        Alert.alert('button clicked ' + this.state.user );
-        this.props.login({
-            username:'raju',
-            password:'testpassword',
+
+        console.log ( this.state.userInputText);
+        if ( this.state.validLogin ){
+
+            this.props.login({
+                username:this.state.userInputText,
+                password:'testpassword',
+            })
+        } else{
+            this.props.login({
+                username:this.state.userInputText,
+                password:'testpassword',
+            })
+        }
+
+        this.setState ({
+            validLogin: !this.state.validLogin,
         })
-
-        this.setState ( {
-            validLogin : true,
-        })
-
-
     }
 
     render(){
 
         return(
                    <View style = {styles.container} >  
-                        <Text> { this.state.user } </Text>
+                        
+                        {this.state.validLogin ? <SuccessPage successMessage = 'success' /> : <FailurePage>}
+                        
+
+                        <TextInput
+                            style={{height: 40, width: 100, borderColor: 'gray', borderWidth: 1}}
+                            onChangeText={ (text) => this.setState({userInputText: text})}
+                            value={this.state.userInputText}
+                        />
+
+                        <Text> {this.props.user.userName} </Text>
+
                         <TouchableHighlight onPress = {this.onLoginButtonClicked} > 
                                 <Text> Click me </Text>
                         </TouchableHighlight>
+                         
+
                  </View>     
         )
     }
@@ -71,12 +92,13 @@ const styles = StyleSheet.create({
 
 
 const mapStateToProps = state => ({
-    user: state.user,
+    user: state.userReducer,
 });
 
 const mapDispatchToProps = dispatch => ({
 
     login:(userCredentials) => dispatch ( login(userCredentials)),
+    
 
 });
 

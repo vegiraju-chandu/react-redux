@@ -5,7 +5,7 @@
 import * as actions from '../actions/userActions'
 
 const initialState = {
-    userName : 'raju'
+    userName : ''
 }
 
 export default function userReducer(state = initialState, action) {
